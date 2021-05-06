@@ -11,23 +11,23 @@
 <form style="margin-left: 5%" action="Servlet-Nomina" method="POST">
     <label for="nombre"><%= "Ingrese sus nombres"%></label>
     <br>
-    <input type="text" name="nombre" id="nombre" required autofocus >
+    <input type="text" name="nombre" id="nombre" required >
     <br><br>
     <label for="apellido"><%= "Ingrese sus apellidos"%></label>
     <br>
-    <input type="text" name="apellido" id="apellido" required autofocus >
+    <input type="text" name="apellido" id="apellido" required >
     <br><br>
     <label for="documento"><%= "Ingrese su Documento"%></label>
     <br>
-    <input type="number" name="documento" id="documento" required autofocus >
+    <input type="number" name="documento" id="documento" required >
     <br><br>
     <label for="dtrab"><%= "Ingrese loa Dias trabajados"%></label>
     <br>
-    <input type="number" name="dtrab" id="dtrab" required autofocus >
+    <input type="number" name="dtrab" id="dtrab" required >
     <br><br>
     <label for="sueldo"><%= "Ingrese su Sueldo mensual"%></label>
     <br>
-    <input type="number" name="sueldo" id="sueldo" required autofocus >
+    <input type="number" name="sueldo" id="sueldo" required >
     <br>
     <input type="submit" value="CALCULAR">
 </form>
